@@ -1,0 +1,307 @@
+﻿body {
+}
+
+h1.container {
+    font-family: 'Anton', sans-serif;
+}
+
+h2.container{
+    font-family: 'Cookie', cursive;
+}
+h1{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+
+nav#navvy.navbar.navbar-static-top{ /*use overriding Bootstrap class*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: grey;
+    background-color: white;
+}
+#navvy a{
+    color: cadetblue;
+}
+#navvy a:hover{
+    background-color: steelblue;
+}
+
+/*button*/
+button.navbar-toggle{
+    border: 1px solid #fff6f0;
+}
+span.icon-bar{
+    border: 1px solid #fff6f0;
+}
+
+ .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+.navbar-nav > li.navbar-right {
+    float: right !important;
+}
+
+#columns-wrap{
+    overflow: hidden;
+}
+
+
+div.background1{
+    background:url('../Images/tuscany-villas-sant-anna.jpg') repeat;
+    border: 2px solid grey;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+
+div.transbox1{
+    margin: 50px;
+    background-color: darkslategrey;
+    border: 1px solid black;
+    padding-top: 25px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 10%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+div.background2{
+    background:url('../Images/Versilia.jpg') repeat;
+    border: 2px solid grey;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 125px;
+    padding-bottom: 125px;
+}
+
+div.transbox2{
+    margin: 50px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+    
+#columns{
+    margin: auto;
+    text-align: center;
+}
+
+div.background3{
+    background:url('../Images/Villa-Vanna.jpg');
+    border: 2px solid grey;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+
+}
+
+div.transbox3{
+    background-color: darkslategrey;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=90);
+    margin: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+
+div.background4{
+    background:url('../Images/pool1.jpg') repeat;
+    border: 2px solid grey;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+}
+
+div.transbox4{
+    margin: 25px;
+    background-color: darkslategrey;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=90);
+    margin: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+} 
+
+div.background5{
+    background:url('../Images/Villa-Rucellai-Toscani1.jpg') repeat;
+    border: 2px solid grey;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+}
+
+div.transbox5{
+    margin: 25px;
+    background-color: darkslategrey;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=90);
+    margin: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+} 
+
+div.background6{
+    background:url('../Images/Villa-Rucellai-Toscani2.jpg') repeat;
+    border: 2px solid white;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+}
+
+div.transbox6 {
+    margin: auto;
+    background-color: darkslategrey;
+    border: 3px solid steelblue;
+    opacity: 1;
+    margin: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+
+div.background7{
+    background:url('../Images/img-thing.jpg');
+}
+
+div.transbox7{
+    margin: auto;
+    border: 1px solid black;
+    opacity: 1;
+    margin: 30;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: center;
+    font-size: small;
+    
+}
+div.background8{
+    background:url('../Images/img-thing.jpg');
+}
+
+div.transbox8{
+    margin: auto;
+    border: 1px solid black;
+    opacity: 1;
+    margin: 50%;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: center;
+    font-size: 50%;
+    
+}
+
+div.background9{
+    background:url('../Images/img-thing.jpg');
+}
+
+div.transbox9 {
+    margin: auto;
+    border: 1px solid black;
+    opacity: 1;
+    margin: 30;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: center;
+    font-size: small;
+}
+
+div.background10{
+    background:url('../Images/img-thing.jpg');
+}
+
+div.transbox10{
+    margin: auto;
+    border: 1px solid black;
+    opacity: 1;
+    margin: 30;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: center;
+    font-size: small;
+    
+}
+
+div.background11 {
+    background: url('../Images/countryhome.jpg') repeat;
+    border: 2px solid white;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+}
+
+div.transbox11{
+    margin: auto;
+    border: 3px solid steelblue;
+    opacity: 1;
+    margin: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    
+}
+
+div.background12{
+    background: url('../Images/pool2.jpg') repeat;
+    border: 2px solid white;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+}
+
+div.transbox12{
+    margin: auto;
+    border: 3px solid steelblue;
+    opacity: 1;
+    margin: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    
+}
+
+#review{
+    background-color: #6bcebc;
+    color: white;
+}
+
